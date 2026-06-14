@@ -1,0 +1,39 @@
+# Environment
+.env
+.env.local
+.env.example
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+.coverage
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform.tfvars
+*.tfvars
+terraform/crash.log
+
+# Kubernetes local config
+.kube/
+kubeconfig
+
+# Monitoring generated data
+monitoring/grafana/data/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
