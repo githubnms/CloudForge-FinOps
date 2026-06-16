@@ -63,6 +63,7 @@ Status: Diagram coming soon.
 
 ## Project Structure
 
+```
 cloudforge-finops/
 │
 ├── frontend/                    # Developer portal UI
@@ -138,6 +139,7 @@ cloudforge-finops/
 ├── Makefile                     # make run / make test / make deploy
 ├── .env.example                 # Environment variable template
 └── .gitignore
+```
 
 > The repository is organized into modular domains to separate infrastructure, application services, platform operations, and observability concerns.
 
