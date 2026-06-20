@@ -4,6 +4,7 @@ Wraps terraform init / apply / destroy
 """
 import subprocess
 
+
 class TerraformRunner:
     def __init__(self, working_dir: str = "../terraform"):
         self.working_dir = working_dir
