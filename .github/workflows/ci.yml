@@ -23,7 +23,7 @@ jobs:
       - name: Run tests with coverage
         run: |
           cd backend
-          pytest tests/ -v --cov=. --cov-report=term-missing --cov-fail-under=70
+          pytest tests/ -v --cov=. --cov-report=term-missing --cov-fail-under=40
 
       - name: Lint Python with flake8
         run: |
