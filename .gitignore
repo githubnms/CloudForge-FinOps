@@ -37,3 +37,10 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+
+# Grafana runtime data
+monitoring/grafana/csv/
+monitoring/grafana/pdf/
+monitoring/grafana/png/
+monitoring/grafana/plugins/
+monitoring/grafana/grafana.db
