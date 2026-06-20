@@ -3,8 +3,6 @@ Terraform Runner — Executes Terraform CLI commands from Python
 Wraps terraform init / apply / destroy
 """
 import subprocess
-import os
-
 
 class TerraformRunner:
     def __init__(self, working_dir: str = "../terraform"):

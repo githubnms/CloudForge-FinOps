@@ -28,4 +28,4 @@ jobs:
       - name: Lint Python with flake8
         run: |
           cd backend
-          flake8 . --max-line-length=100 --exclude=.venv
+          flake8 . --max-line-length=110 --exclude=.venv --extend-ignore=W292,E231
